@@ -20,6 +20,24 @@
   color: #FFF8F3;
   cursor: pointer;;
 } 
+
+.ready-heading{
+  max-width: 1360px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.ready-heading h2{
+  font-size: 40px;
+  color: #001931;
+  margin-bottom: 24px;
+}
+.ready-heading p{
+  font-size: 16px ;
+  margin-bottom: 24px;
+  color: #627382;
+  line-height: 24px;
+}
 nav .logo img{
   margin: 0px auto;
   align-items: center;
@@ -316,40 +334,34 @@ nav .button:hover{
   flex-shrink: 0;
 }
 
-------------------------------------------------
 
 #ready{
+  padding-top: 2px;
+}
+
+#ready .ready-container{
   width: 85%;
   max-width: 1360px;
-  margin: 120px auto;
-  padding: 80px 0;
-  background: #F7F5EF;
-  border-radius: 16px;
+  margin: 0 auto;
   text-align: center;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
 }
 
-#ready h2{
-  font-size: 40px;
-  font-weight: 700;
-  color: #001931;
-  margin-bottom: 12px;
+#ready .ready-container .ready-info {
+  /* display: inline-flex; */
+  margin-top:  24px;
 }
 
-#ready .ready-sub{
-  font-size: 14px;
-  line-height: 22px;
-  color: #627382;
-  margin-bottom: 24px;
-}
-
-#ready .btn{
+#ready .ready-container .ready-button .btn{
   font-size: 16px;
-  padding: 12px 20px;
-  border-radius: 6px;
-  margin-bottom: 12px;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
-#ready .ready-small{
-  font-size: 12px;
+#ready .ready-container .ready-button p{
+  font-size: 16px;
+  font-weight: 400;
   color: #627382;
+  /* margin-top: 16px; */
 }
