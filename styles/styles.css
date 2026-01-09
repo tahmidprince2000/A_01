@@ -160,3 +160,79 @@ nav .button:hover{
 .btn.secondary:hover {
   background-color: rgba(174, 255, 0, 0.1);
 }
+
+#notes{
+  width: 85%;
+  max-width: 1360px;
+  /* height: 116px; */
+  justify-content:center;
+   text-align: center;
+  /* border: 1px solid #000000; */
+  margin: 0 auto;
+}
+
+/* #notes .notes-container{
+  margin: 0 auto;
+} */
+#notes .notes-container .section-heading{
+  display: flex;
+  flex-direction: column;
+  height: 152px;
+  text-align: center;
+  justify-content: flex-end;
+  margin-bottom: 44px;
+  /* border: 1px solid black; */
+}
+#notes .notes-container .section-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px; 
+}
+#notes .notes-container .section-heading p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382 ;
+}
+
+#notes .notes-container .notes-box{
+  display: flex;
+  gap: 24px;
+}
+.notes-box .notes-card{
+  justify-content: center;
+  padding: auto;
+  border: 1px solid rgb(255, 0, 0);
+  max-width: 322px;
+  /* height: 300; */
+}
+.notes-card img{
+  /* width: 32px;
+  height: 32px;
+  max-width: 60px; */
+  /* background: #30B868; */
+  border-radius: 50%;
+   width: 32px;       /* Set a specific width */
+  height: 32px;       /* Automatically adjust height to maintain aspect ratio */
+  /* border-radius: 10px;  */
+  max-width: 10%; 
+  
+  margin: 70px auto 16px;
+  background: red;
+}
+.notes-card h3{
+  font-size: 24px;
+  max-width: 274px;
+  justify-content: center;
+  margin: 0 auto;
+  color: #001931;
+  margin-bottom: 16px;
+  font-weight: 600;
+  
+}
+.notes-card p{
+  font-size: 16;
+  max-width: 274px;
+  margin: 0 auto;
+  color: #627382;
+  line-height: 20px;
+}
