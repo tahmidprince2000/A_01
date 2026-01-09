@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* shared style  */
+
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -11,8 +11,6 @@
 .btn {
   background-color: #30B868;
   border: none;
-  /* width: 164px;
-  height: 44px; */
   padding: 12px 16px;
   border-radius: 4px;
   font-size: 20px;
@@ -42,7 +40,7 @@ nav .logo img{
   margin: 0px auto;
   align-items: center;
  }
-/* main style  */
+
 header{
   background-color: #FFFFFF;
   padding-top: 16px;
@@ -79,9 +77,9 @@ nav .button{
   align-items: center;
   padding: 12px 16px;
 }
-nav .button:hover{
+/* nav .button:hover{
   background-color: rebeccapurple;
-}
+} */
 
 .banner{
   background-image: url(../assets/hero-bg.png);
@@ -104,8 +102,6 @@ nav .button:hover{
   width: 1360px;
   height: 379px;
   text-align: center;
-
-  /* padding: ; */
 }
 
 .banner-badge{
@@ -147,7 +143,6 @@ nav .button:hover{
   max-width: 1360px;
   height: 60px;
   text-align: center;
-  /* overflow: hidden; */
   /* margin: 20px auto; */
   margin-bottom: 32px;
   color: #FFFFFF;
@@ -349,7 +344,6 @@ nav .button:hover{
 }
 
 #ready .ready-container .ready-info {
-  /* display: inline-flex; */
   margin-top:  24px;
 }
 
@@ -363,5 +357,58 @@ nav .button:hover{
   font-size: 16px;
   font-weight: 400;
   color: #627382;
-  /* margin-top: 16px; */
+}
+
+
+footer{
+  margin-top: 120px;
+  background-color: #001931;
+  padding: 60px 120px 30px;
+}
+
+footer .footer-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  /* margin-bottom: 80px; */
+}
+
+footer .footer-container .logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-container .logo p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+footer .footer-container .logo a{
+  margin-right: 16px;
+  color: white;
+}
+
+.copyright {
+  width: 85%;
+  max-width: 1360px;
+  margin: 80px 0 auto;
+  text-align: center;
+}
+
+.copyright hr{
+  width: 85%;         
+  max-width: 1360px;
+  margin: 0 auto 24px;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  justify-items: center;
+}
+.copyright p{
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FAFAFA;
 }
