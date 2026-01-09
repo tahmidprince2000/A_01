@@ -231,3 +231,125 @@ nav .button:hover{
   color: #627382;
   line-height: 20px;
 }
+
+
+#brain {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 80px 0;
+  /* border: 1px solid red ; */
+}
+
+.brain-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px; 
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.brain-image {
+  width: 48%;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 24px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brain-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.brain-text {
+  width: 48%;
+  max-width: 620px;
+  /* height: auto; */
+}
+.brain-label {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 20px;
+  color: #30B868;
+  margin-bottom: 16px;
+}
+
+
+.brain-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.brain-text p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.brain-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.brain-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
+}
+.brain-list li img {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+------------------------------------------------
+
+#ready{
+  width: 85%;
+  max-width: 1360px;
+  margin: 120px auto;
+  padding: 80px 0;
+  background: #F7F5EF;
+  border-radius: 16px;
+  text-align: center;
+}
+
+#ready h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 12px;
+}
+
+#ready .ready-sub{
+  font-size: 14px;
+  line-height: 22px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+
+#ready .btn{
+  font-size: 16px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+#ready .ready-small{
+  font-size: 12px;
+  color: #627382;
+}
